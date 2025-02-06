@@ -1,0 +1,31 @@
+<<<<<<< HEAD
+### Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+#### Required Packages
+```
+requests
+beautifulsoup4
+nltk
+pandas
+matplotlib
+```
+
+- `requests` – HTTP requests, simple and clean.
+- `beautifulsoup4` – Parses HTML, does the dirty work.
+- `nltk` – Tokenization, lemmatization, basic NLP utilities.
+- `pandas` – DataFrames, CSV I/O, makes life easier.
+- `matplotlib` – For future visualizations (because numbers alone are boring).
+
+---
+
+### Notes
+- Minimal setup. You don’t need CUDA, you don’t need a GPU. Just Python and `pip install -r requirements.txt`.
+- Python **3.8+** recommended.
+- If something breaks, check `pip list` and make sure you're not running some ancient version of `requests` from 2015.
+
+=======
+requests\nbeautifulsoup4\nnltk\npandas\nmatplotlib
+>>>>>>> 804f7b4 (Initial commit)
